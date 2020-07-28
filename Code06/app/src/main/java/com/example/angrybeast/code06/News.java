@@ -2,31 +2,31 @@ package com.example.angrybeast.code06;
 
 public class News {
     private String mTitle;
-    private String mAuthor;
-    private String mContent;
-    private int mImageId;
+    private  String mAuthor;
+    private  String mContent;
+    private  int mImageId;
 
-    public String getmTitle() {
+    public String getTitle() {
         return mTitle;
     }
 
-    public void setmTitle(String mTitle) {
+    public void setTitle(String mTitle) {
         this.mTitle = mTitle;
     }
 
-    public String getmAuthor() {
+    public String getAuthor() {
         return mAuthor;
     }
 
-    public void setmAuthor(String mAuthor) {
+    public void setAuthor(String mAuthor) {
         this.mAuthor = mAuthor;
     }
 
-    public String getmContent() {
+    public String getContent() {
         return mContent;
     }
 
-    public void setmContent(String mContent) {
+    public void setContent(String mContent) {
         this.mContent = mContent;
     }
 
@@ -34,7 +34,7 @@ public class News {
         return mImageId;
     }
 
-    public void setImageId(int imageId) {
-        this.mImageId = imageId;
+    public void setImageId(int mImageId) {
+        this.mImageId = mImageId;
     }
 }
